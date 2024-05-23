@@ -10,6 +10,6 @@ spec:
     - name: HelloService
       port: 3000
       type: REST
-      visibility: Public
+      visibility: Project
       context: .
       schemaFilePath: openapi.yaml
