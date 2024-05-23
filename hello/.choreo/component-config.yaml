@@ -1,5 +1,5 @@
 apiVersion: core.choreo.dev/v1alpha1
-kind: ComponentConfig
+
 metadata:
   name: helloservice
   projectName: HelloChoreo
