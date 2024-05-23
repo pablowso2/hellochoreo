@@ -5,8 +5,8 @@ metadata:
   projectName: HelloChoreo
   annotations:
     componentType: service
-spec:
-  inbound:
+
+endpoints:
     - name: HelloService
       port: 3000
       type: REST
