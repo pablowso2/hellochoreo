@@ -1,15 +1,9 @@
-apiVersion: core.choreo.dev/v1alpha1
-
-metadata:
-  name: helloservice
-  projectName: HelloChoreo
-  annotations:
-    componentType: service
+apiVersion: 0.1
 
 endpoints:
     - name: HelloService
       port: 3000
       type: REST
       networkVisibility: Public
-      context: .
+      context: /hello
       schemaFilePath: openapi.yaml
