@@ -3,7 +3,7 @@ info:
   title: HelloService
   version: 1.0.0
 paths:
-  /*:
+  /hello:
     get:
       summary: Retrieve an example resource
       responses:
@@ -24,3 +24,4 @@ paths:
       responses:
         '204':
           description: Resource deleted successfully
+          
