@@ -4,6 +4,6 @@ endpoints:
     - name: HelloService
       port: 3000
       type: REST
-      networkVisibility: Public
+      visibility: Public
       context: /hello
       schemaFilePath: openapi.yaml
